@@ -22,7 +22,7 @@ body{
     width: 272px; 
     margin: 0 auto; 
     padding-top: 160px;
-    padding-bottom: 30px;  
+    padding-bottom: 25px;  
 }
 
 .miclogo img   {
@@ -35,14 +35,16 @@ body{
 }
 
 .searchbar  {
+    box-sizing: border-box;
     border: 1px solid #ddd;
     display: block;
     height: 44px;
-    width: 412px;
+    width: 482px;
     margin: 0 auto;
     border-radius: 25px;
     padding-inline-start: 20px;
     padding-inline-end: 50px;
+    position: relative;
 }
 .searchbtn {
     
