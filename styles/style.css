@@ -38,6 +38,10 @@ li a:hover {
     float: right;
 }
 
+appgrid{
+    
+}
+
 .logo {
     display: block;
     height: 92px;
@@ -76,7 +80,13 @@ li a:hover {
     padding-inline-start: 20px;
     padding-inline-end: 50px;
     position: relative;
+    font: 16px arial, sans-serif;
 }
+
+.searchbar:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 .searchbtn {
     display: block;
     padding-top: 20px;
@@ -97,6 +107,11 @@ li a:hover {
     padding: 12px;
     text-align: center;
     -webkit-appearance: push-button;
+}
+
+.searchbtn input:hover {
+    border: 1px solid rgb(186, 186, 186);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .footbar {
