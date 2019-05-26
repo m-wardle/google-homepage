@@ -41,13 +41,17 @@ li a:hover {
     top: 0px;
 }
 
-.appgrid{
+.appgrid {
     position: relative;
     bottom: 8px;
     display: grid;
     width: 18px;
     height: 18px;
     grid-gap: 1px;
+}
+
+.appgrid:hover {
+    color: #000;
 }
 
 .app1 {
@@ -121,13 +125,15 @@ li a:hover {
     top: 12px;
 }
 
-.logo {
+.logo a {
     display: block;
     height: 92px;
     width: 272px; 
-    margin: 0 auto; 
-    padding-top: 160px;
-    padding-bottom: 25px;  
+    margin: 160px auto 25px auto; 
+}
+
+.logo img {
+    width: 100%;
 }
 .searcharea {
     box-sizing: border-box;
