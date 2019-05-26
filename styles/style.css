@@ -61,3 +61,11 @@ body{
     padding: 0 16px;
     text-align: center;
 }
+
+.footleft {
+    float: left;
+}
+
+.footright {
+    float: right;
+}
