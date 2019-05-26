@@ -24,14 +24,23 @@ body{
     padding-top: 160px;
     padding-bottom: 25px;  
 }
+.searcharea {
+    box-sizing: border-box;
+    display: block;
+    height: 44px;
+    width: 484px;
+    margin: 0 auto;
+    position: relative;
+}
 
 .miclogo img   {
     height: 24px;
     width: 24px;
     position: absolute;
-    right: 335px;
-    bottom: 430px;
+    right: 15px;
+    top: 10px;
     cursor: pointer;
+    
 }
 
 .searchbar  {
@@ -45,9 +54,6 @@ body{
     padding-inline-start: 20px;
     padding-inline-end: 50px;
     position: relative;
-}
-.searchbtn {
-    
 }
 
 .searchbtn input{
